@@ -1,1 +1,42 @@
-/* Write your CSS here! */
+/* Elements */
+body {
+    background-color: rgb(127, 204, 255);
+    margin: 8px;
+    display: block;
+}
+
+hr {
+    height: .3rem;
+    background-color: #2956dd;
+    border: none;
+    margin: 20px 0px 0px; 
+}
+
+ul {
+    list-style: square;
+}
+
+/* Classes */
+
+.funParagraph {
+    color: green;
+}
+
+.first-image {
+    margin: 10px 0px;
+    height: 225px;
+    width: 350px;
+}
+/* IDs */
+
+#mainHeading {
+    color: red;
+}
+
+
+/* Notes */
+
+/* Margins: used to create space around elements, outside of any defined borders */
+/* Padding: are used to generate space around an element's content, inside of any defined borders */
+/* block is used to change an element from inline to block-level. 
+When an element has a block display value, it will start on a new line and take up the full width available by default */
